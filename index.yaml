@@ -1,5 +1,58 @@
 apiVersion: v1
 entries:
+  flux2:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Chore]: Update App Version to upstream 2.2.3"
+    apiVersion: v2
+    appVersion: 2.3.0
+    created: "2024-05-19T18:49:14.749733083Z"
+    description: A Helm chart for flux2
+    digest: d2081216589febe89ad4ef2eb261d512fba61c12c06fa726d8ddd184a21a60f5
+    name: flux2
+    sources:
+    - https://github.com/fluxcd-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/grzegorzgniadek/flux-helm-charts/releases/download/flux2-2.13.0/flux2-2.13.0.tgz
+    version: 2.13.0
+  flux2-multi-tenancy:
+  - annotations:
+      artifacthub.io/changes: |
+        - "docs: fix grammar"
+    apiVersion: v2
+    created: "2024-05-19T18:49:14.841136435Z"
+    dependencies:
+    - condition: kyverno.enabled
+      name: kyverno
+      repository: https://kyverno.github.io/kyverno
+      version: 2.1.4
+    deprecated: true
+    description: A Helm chart for flux2-multi-tenancy
+    digest: 7351914a274c0d60f42903432be32586f0f6b7c1c873f9841917255ea2794bca
+    name: flux2-multi-tenancy
+    sources:
+    - https://github.com/fluxcd/flux2-multi-tenancy
+    type: application
+    urls:
+    - https://github.com/grzegorzgniadek/flux-helm-charts/releases/download/flux2-multi-tenancy-0.0.6/flux2-multi-tenancy-0.0.6.tgz
+    version: 0.0.6
+  flux2-notification:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Chore]: Update App Version to upstream 2.2.3"
+    apiVersion: v2
+    appVersion: 2.3.0
+    created: "2024-05-19T18:49:14.937674398Z"
+    description: A Helm chart for flux2 alerts and the needed providers and secrets
+    digest: 5b14e710d04025602e1fbf27c3be903bee232bb99c8cb4597900c900581eeb37
+    name: flux2-notification
+    sources:
+    - https://github.com/fluxcd-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/grzegorzgniadek/flux-helm-charts/releases/download/flux2-notification-1.15.0/flux2-notification-1.15.0.tgz
+    version: 1.15.0
   flux2-sync:
   - annotations:
       artifacthub.io/changes: |
@@ -16,4 +69,4 @@ entries:
     urls:
     - flux2-sync-1.10.0.tgz
     version: 1.10.0
-generated: "2024-05-19T20:13:17.505678828+02:00"
+generated: "2024-05-19T18:49:15.029365767Z"
