@@ -11,7 +11,7 @@ entries:
     digest: d2081216589febe89ad4ef2eb261d512fba61c12c06fa726d8ddd184a21a60f5
     name: flux2
     sources:
-    - https://github.com/fluxcd-community/helm-charts
+    - https://github.com/grzegorzgniadek/flux-helm-charts
     type: application
     urls:
     - https://github.com/grzegorzgniadek/flux-helm-charts/releases/download/flux2-2.13.0/flux2-2.13.0.tgz
@@ -48,7 +48,7 @@ entries:
     digest: 5b14e710d04025602e1fbf27c3be903bee232bb99c8cb4597900c900581eeb37
     name: flux2-notification
     sources:
-    - https://github.com/fluxcd-community/helm-charts
+    - https://github.com/grzegorzgniadek/flux-helm-charts
     type: application
     urls:
     - https://github.com/grzegorzgniadek/flux-helm-charts/releases/download/flux2-notification-1.15.0/flux2-notification-1.15.0.tgz
@@ -64,7 +64,7 @@ entries:
     digest: a3134f1889795ee1bfb98abe9d824b755fecf08447850ddfd259e57cc086d55f
     name: flux2-sync
     sources:
-    - https://github.com/fluxcd-community/helm-charts
+    - https://github.com/grzegorzgniadek/flux-helm-charts
     type: application
     urls:
     - flux2-sync-1.10.0.tgz
